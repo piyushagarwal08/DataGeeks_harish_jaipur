@@ -1,0 +1,1 @@
+PRICE MONEY = 10k
