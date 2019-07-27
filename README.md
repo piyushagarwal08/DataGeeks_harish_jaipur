@@ -1,1 +1,1 @@
-PRICE MONEY = 10k
+# PRICE MONEY = 10k
