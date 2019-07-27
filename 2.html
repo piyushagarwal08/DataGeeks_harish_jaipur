@@ -1,0 +1,41 @@
+<html>
+    <head>
+            <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+            <link href="style.css" rel="stylesheet" id="css">
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    </head>
+
+    <body style="overflow: hidden">
+        <div class="wrapper fadeInDown">
+                <div id="formContent">
+                  <!-- Tabs Titles -->
+              
+                  <!-- Icon -->
+                  <div class="fadeIn first">
+                      <br>
+                    <img src="login.png" id="icon" alt="User Icon" style="width: 30%; height: 30%;"/>
+                  </div>
+              
+                  <!-- Login Form -->
+                  <form id="myform" action="/cgi-bin/launch1.py">
+                    <input type="text" id="uname" class="fadeIn second" name="uname" placeholder="नाम" required>
+                    <input type="text" id="email" class="fadeIn second" name="email" placeholder="ईमेल"p  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required >
+                    <input type="text" id="phone" class="fadeIn third" name="phone" placeholder="फोन नंबर" pattern="[789][0-9]{9}" required>  
+                    <br>
+                    <br>
+                    <input type="submit" class="fadeIn fourth" value="रजिस्टर करें">
+                  </form>
+                  <script>
+                        function submit() {
+                          
+                         document.getElementById("myForm").reset();
+                        }
+                    </script>
+                  
+                </div>
+              </div>
+              
+    </body>
+</html>
