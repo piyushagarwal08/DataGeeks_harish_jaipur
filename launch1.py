@@ -8,7 +8,6 @@ import mysql.connector as mysql
 import smtplib
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
-s.login("jainhimani1999@gmail.com", "honeypagal@123gml")
 message = "Registred"
 s.sendmail("jainhimani1999@gmail.com", "intern3tgovernance@gmail.com", message)
 s.quit()                                                                                                                                                                
